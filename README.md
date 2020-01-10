@@ -48,7 +48,7 @@ Write to the logger as you normally would:
 @post.save
 ```
 
-All of the options supported by [activemodel-logger_attributes](https://github.com/chrisb/acitvemodel-logger_attributes) are supported here with a few additions:
+All of the options supported by [activemodel-logger_attributes](https://github.com/chrisb/activemodel-logger_attributes) are supported here with a few additions:
 
 ```ruby
 logger_attr :activity_log, update_on_write: true
