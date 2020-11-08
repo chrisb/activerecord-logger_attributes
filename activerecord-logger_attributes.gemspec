@@ -1,4 +1,4 @@
-lib = File.expand_path("../lib", __FILE__)
+lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "active_record/logger_attributes/version"
 
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ['lib']
   spec.add_dependency 'activemodel-logger_attributes', '~> 0.1'
-  spec.add_development_dependency "bundler", "~> 1.16"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec", "~> 3.0"
 end
